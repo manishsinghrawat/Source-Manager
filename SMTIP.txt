@@ -1,0 +1,9 @@
+To Execute file more than once use Run All and Run selection
+Do not use run all when using great number of files.
+Disable special features on slow computers
+You can add custom compiler watch help file for more info
+Use association editor to create custom associations and assign new compiler to job
+Project viewer is helpful in managing your project 
+if you want to uninstall a compiler goto compiler viewer
+
+

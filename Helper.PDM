@@ -1,0 +1,884 @@
+[Root]
+Most Recent Package=Standard Setup Package 4
+Most Recent Deploy=Folder Deployment 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\vb\c++\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\RICHTX32.OCX=
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\scrrun.dll=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+D:\patcher.exe=
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\dm\helper.exe=
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Helper\Helpers.exe=Yes
+C:\VisualStudio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\VisualStudio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\VisualStudio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\VisualStudio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\VisualStudio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\patcher.exe=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Helper\Helpers.exe=$(AppPath)
+C:\VisualStudio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\VisualStudio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\VisualStudio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\VisualStudio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\VisualStudio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\patcher.exe=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Helper\Helpers.exe=No
+D:\patcher.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Source Manager
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Source Manager
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Source Manager]
+Icon1=Helpers.exe
+Title1=Source Manager
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=F:\vb\c++\Package
+ProjectFolder=F:\vb\c++
+ServerSideCab=
+File1=F:\vb\c++\Package\setup.exe
+File2=F:\vb\c++\Package\Setup.Lst
+File3=F:\vb\c++\Package\Helpers.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|Folder Deployment 1|Root]
+Package=Standard
+Handler=PDWizard.FolderDplySubWiz
+Folder=C:\help
+
+
+[Package|Standard|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\vb\c++\Package
+
+[Package|Standard|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard|Files Found]
+patcher.exe=C:\Program Files\patcher.exe
+
+[Package|Standard|Files Released]
+
+[Package|Standard|Missing Dependency Information]
+
+[Package|Standard|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|Standard|Files Added]
+patcher.exe=
+
+[Package|Standard|Files Removed]
+
+[Package|Standard|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\VisualStudio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\VisualStudio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\VisualStudio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\VisualStudio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\VisualStudio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+F:\vb\c++\executable\Source Manager.exe=Yes
+C:\Program Files\patcher.exe=Yes
+
+[Package|Standard|Configure Registry Files]
+Applicable=No
+
+[Package|Standard|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard|Install Locations]
+C:\Helper\Helpers.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\VisualStudio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\VisualStudio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\VisualStudio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\VisualStudio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\VisualStudio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\patcher.exe=$(AppPath)
+F:\vb\c++\executable\Source Manager.exe=$(AppPath)
+C:\Program Files\patcher.exe=$(AppPath)
+
+[Package|Standard|Configure Shared Files]
+Applicable=Yes
+C:\Helper\Helpers.exe=No
+D:\patcher.exe=No
+F:\vb\c++\executable\Source Manager.exe=No
+C:\Program Files\patcher.exe=No
+
+[Package|Standard|Distribution]
+Type=single
+Size=
+Title=Source Manager
+
+[Package|Standard|IconGroups]
+Group0=Source Manager
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard|Source Manager]
+Icon1=Helpers.exe
+Title1=Source Manager
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard|Package]
+PackageFolder=F:\vb\c++\Package
+ProjectFolder=F:\vb\c++
+ServerSideCab=
+File1=F:\vb\c++\Package\setup.exe
+File2=F:\vb\c++\Package\Setup.Lst
+File3=F:\vb\c++\Package\Source Manager.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\New
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|Dep File 1|Files Added]
+F:\vb\c++\PATCHER.exe=
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+C:\New\Manager.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\VisualStudio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\VisualStudio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+F:\vb\c++\PATCHER.exe=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=
+
+[Package|Dep File 1|Install Locations]
+C:\New\Manager.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\VisualStudio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\VisualStudio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+F:\vb\c++\PATCHER.exe=$(AppPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=
+
+[Package|Dep File 1|DepFile]
+DepCabFile=Manager.CAB
+DepCabRun=Manager.INF
+DepCabURL=c:\new\manish
+
+[Package|Dep File 1|Package]
+PackageFolder=C:\New
+ProjectFolder=F:\vb\c++
+ServerSideCab=
+File1=C:\New\Manager.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\vb\SM package
+
+[Package|Standard Setup Package|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package|Files Found]
+
+[Package|Standard Setup Package|Files Released]
+
+[Package|Standard Setup Package|Missing Dependency Information]
+F:\vb\Source Manager\Source Manager\Source Code\vbrun60sp6.exe=
+
+[Package|Standard Setup Package|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|Standard Setup Package|Files Added]
+F:\vb\Source Manager\Source Manager\Source Code\PATCHER.exe=
+F:\vb\Source Manager\Source Manager\Source Code\patch.bat=
+F:\vb\Source Manager\Source Manager\Source Code\vbrun60sp6.exe=
+
+[Package|Standard Setup Package|Files Removed]
+
+[Package|Standard Setup Package|Files In Project]
+F:\vb\Source Manager\Source Manager\Source Code\Source Manager.exe=Yes
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\VisualStudio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\VisualStudio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\VisualStudio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\VisualStudio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\VisualStudio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+F:\vb\Source Manager\Source Manager\Source Code\PATCHER.exe=Yes
+F:\vb\Source Manager\Source Manager\Source Code\patch.bat=Yes
+F:\vb\Source Manager\Source Manager\Source Code\vbrun60sp6.exe=Yes
+
+[Package|Standard Setup Package|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package|Install Locations]
+F:\vb\Source Manager\Source Manager\Source Code\Source Manager.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\VisualStudio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\VisualStudio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\VisualStudio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\VisualStudio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\VisualStudio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\vb\Source Manager\Source Manager\Source Code\PATCHER.exe=$(AppPath)
+F:\vb\Source Manager\Source Manager\Source Code\patch.bat=$(AppPath)
+F:\vb\Source Manager\Source Manager\Source Code\vbrun60sp6.exe=$(AppPath)
+
+[Package|Standard Setup Package|Configure Shared Files]
+Applicable=Yes
+F:\vb\Source Manager\Source Manager\Source Code\Source Manager.exe=No
+F:\vb\Source Manager\Source Manager\Source Code\PATCHER.exe=No
+F:\vb\Source Manager\Source Manager\Source Code\patch.bat=No
+F:\vb\Source Manager\Source Manager\Source Code\vbrun60sp6.exe=No
+
+[Package|Standard Setup Package|Distribution]
+Type=single
+Size=
+Title=Source Manager
+
+[Package|Standard Setup Package|IconGroups]
+Group0=Source Manager
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package|Source Manager]
+Icon1="Source Manager.exe"
+Title1=Source Manager
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package|Package]
+PackageFolder=F:\vb\SM package
+ProjectFolder=F:\vb\Source Manager\Source Manager\Source Code
+ServerSideCab=
+File1=F:\vb\SM package\setup.exe
+File2=F:\vb\SM package\Setup.Lst
+File3=F:\vb\SM package\Source Manager.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\Source Manager\Source Code\Package
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+F:\Source Manager\Source Code\vbrun60sp6.exe=
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\RICHTX32.OCX=
+C:\WINDOWS\system32\comdlg32.ocx=
+C:\WINDOWS\system32\mscomctl.ocx=
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|Standard Setup Package 2|Files Added]
+F:\Source Manager\Source Code\PATCHER.exe=
+F:\Source Manager\Source Code\patch.bat=
+F:\Source Manager\Source Code\vbrun60sp6.exe=
+F:\Source Manager\Source Code\SMTIP.txt=
+
+[Package|Standard Setup Package 2|Files Removed]
+
+[Package|Standard Setup Package 2|Files In Project]
+C:\Program Files\Source\Source Manager.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+F:\Source Manager\Source Code\PATCHER.exe=Yes
+F:\Source Manager\Source Code\patch.bat=Yes
+F:\Source Manager\Source Code\vbrun60sp6.exe=Yes
+F:\Source Manager\Source Code\SMTIP.txt=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+C:\Program Files\Source\Source Manager.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\Source Manager\Source Code\PATCHER.exe=$(AppPath)
+F:\Source Manager\Source Code\patch.bat=$(AppPath)
+F:\Source Manager\Source Code\vbrun60sp6.exe=$(AppPath)
+F:\Source Manager\Source Code\SMTIP.txt=$(AppPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+C:\Program Files\Source\Source Manager.exe=No
+F:\Source Manager\Source Code\PATCHER.exe=No
+F:\Source Manager\Source Code\patch.bat=No
+F:\Source Manager\Source Code\vbrun60sp6.exe=No
+F:\Source Manager\Source Code\SMTIP.txt=No
+
+[Package|Standard Setup Package 2|Distribution]
+Type=single
+Size=
+Title=Source Manager
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=Source Manager
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|Source Manager]
+Icon1="Source Manager.exe"
+Title1=Source Manager
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=F:\Source Manager\Source Code\Package
+ProjectFolder=F:\Source Manager\Source Code
+ServerSideCab=
+File1=F:\Source Manager\Source Code\Package\setup.exe
+File2=F:\Source Manager\Source Code\Package\Setup.Lst
+File3=F:\Source Manager\Source Code\Package\Source Manager.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|New|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=f:\vb\Source Manager\Final Package
+
+[Package|New|Configure DAO ISAMs]
+Applicable=No
+
+[Package|New|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|New|Files Found]
+PATCHER.exe=F:\vb\Source Manager\Source Manager\Source Code\PATCHER.exe
+
+[Package|New|Files Released]
+
+[Package|New|Missing Dependency Information]
+F:\vb\Source Manager\Source Manager\Source Code\vbrun60sp6.exe=
+
+[Package|New|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\RICHTX32.OCX=
+C:\WINDOWS\system32\COMDLG32.OCX=
+C:\WINDOWS\system32\scrrun.dll=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|New|Files Added]
+patcher.exe=
+f:\vb\source manager\source manager\source code\patch.bat=
+f:\vb\source manager\source manager\source code\vbrun60sp6.exe=
+
+[Package|New|Files Removed]
+c:\dm\helper.exe=
+
+[Package|New|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+F:\vb\Source Manager\Source Manager\Source Code\Source Manager.exe=Yes
+F:\vb\Source Manager\Source Manager\Source Code\PATCHER.exe=Yes
+F:\vb\Source Manager\Source Manager\Source Code\patch.bat=Yes
+F:\vb\Source Manager\Source Manager\Source Code\vbrun60sp6.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|New|Configure Registry Files]
+Applicable=No
+
+[Package|New|Configure Remote Servers]
+Applicable=No
+
+[Package|New|Install Locations]
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Helper\Helpers.exe=$(AppPath)
+C:\VisualStudio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\VisualStudio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\VisualStudio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\VisualStudio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\VisualStudio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\patcher.exe=$(AppPath)
+F:\vb\Source Manager\Source Manager\Source Code\Source Manager.exe=$(AppPath)
+F:\vb\Source Manager\Source Manager\Source Code\PATCHER.exe=$(AppPath)
+F:\vb\Source Manager\Source Manager\Source Code\patch.bat=$(AppPath)
+F:\vb\Source Manager\Source Manager\Source Code\vbrun60sp6.exe=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|New|Configure Shared Files]
+Applicable=Yes
+C:\Helper\Helpers.exe=No
+D:\patcher.exe=No
+F:\vb\Source Manager\Source Manager\Source Code\Source Manager.exe=No
+F:\vb\Source Manager\Source Manager\Source Code\PATCHER.exe=No
+F:\vb\Source Manager\Source Manager\Source Code\patch.bat=No
+F:\vb\Source Manager\Source Manager\Source Code\vbrun60sp6.exe=No
+
+[Package|New|Distribution]
+Type=single
+Size=
+Title=Source Manager
+
+[Package|New|IconGroups]
+Group0=Source Manager
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|New|Source Manager]
+Icon1=Helpers.exe
+Title1=Source Manager
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|New|Package]
+PackageFolder=f:\vb\Source Manager\Final Package
+ProjectFolder=F:\vb\Source Manager\Source Manager\Source Code
+ServerSideCab=
+File1=f:\vb\Source Manager\Final Package\setup.exe
+File2=f:\vb\Source Manager\Final Package\Setup.Lst
+File3=f:\vb\Source Manager\Final Package\Source Manager.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 3|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\vb\Source Manager\Source Manager\Setup
+
+[Package|Standard Setup Package 3|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 3|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 3|Files Found]
+
+[Package|Standard Setup Package 3|Files Released]
+
+[Package|Standard Setup Package 3|Missing Dependency Information]
+F:\vb\Source Manager\Source Manager\Source Code\vbrun60sp6.exe=
+
+[Package|Standard Setup Package 3|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\scrrun.dll=
+
+[Package|Standard Setup Package 3|Files Added]
+F:\vb\Source Manager\Source Manager\Source Code\Settings.ini=
+F:\vb\Source Manager\Source Manager\Source Code\SMTIP.txt=
+F:\vb\Source Manager\Source Manager\Source Code\vbrun60sp6.exe=
+
+[Package|Standard Setup Package 3|Files Removed]
+
+[Package|Standard Setup Package 3|Files In Project]
+F:\vb\Source Manager\Source Manager\Source Code\Source Manager.exe=Yes
+C:\WINDOWS\system32\MSVBVM60.DLL=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\scrrun.dll=Yes
+C:\WINDOWS\system32\msvcrt.dll=Yes
+C:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\WINDOWS\system32\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+F:\vb\Source Manager\Source Manager\Source Code\Settings.ini=Yes
+F:\vb\Source Manager\Source Manager\Source Code\SMTIP.txt=Yes
+F:\vb\Source Manager\Source Manager\Source Code\vbrun60sp6.exe=Yes
+
+[Package|Standard Setup Package 3|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 3|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 3|Install Locations]
+F:\vb\Source Manager\Source Manager\Source Code\Source Manager.exe=$(AppPath)
+C:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+F:\vb\Source Manager\Source Manager\Source Code\Settings.ini=$(AppPath)
+F:\vb\Source Manager\Source Manager\Source Code\SMTIP.txt=$(AppPath)
+F:\vb\Source Manager\Source Manager\Source Code\vbrun60sp6.exe=$(AppPath)
+
+[Package|Standard Setup Package 3|Configure Shared Files]
+Applicable=Yes
+F:\vb\Source Manager\Source Manager\Source Code\Source Manager.exe=No
+F:\vb\Source Manager\Source Manager\Source Code\Settings.ini=No
+F:\vb\Source Manager\Source Manager\Source Code\SMTIP.txt=No
+F:\vb\Source Manager\Source Manager\Source Code\vbrun60sp6.exe=No
+
+[Package|Standard Setup Package 3|Distribution]
+Type=single
+Size=
+Title=Source Manager
+
+[Package|Standard Setup Package 3|IconGroups]
+Group0=Source Manager
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 3|Source Manager]
+Icon1="Source Manager.exe"
+Title1=Source Manager
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 3|Package]
+PackageFolder=F:\vb\Source Manager\Source Manager\Setup
+ProjectFolder=F:\vb\Source Manager\Source Manager\Source Code
+ServerSideCab=
+File1=F:\vb\Source Manager\Source Manager\Setup\setup.exe
+File2=F:\vb\Source Manager\Source Manager\Setup\Setup.Lst
+File3=F:\vb\Source Manager\Source Manager\Setup\Source Manager.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 4|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\Documents and Settings\Manish\Desktop\Extras\vb\Source Manager\Package
+
+[Package|Standard Setup Package 4|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 4|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 4|Files Found]
+
+[Package|Standard Setup Package 4|Files Released]
+
+[Package|Standard Setup Package 4|Missing Dependency Information]
+
+[Package|Standard Setup Package 4|Out-of-Date Dependency Information]
+F:\WINDOWS\system32\MSCOMCTL.OCX=
+F:\WINDOWS\system32\scrrun.dll=
+
+[Package|Standard Setup Package 4|Files Added]
+
+[Package|Standard Setup Package 4|Files Removed]
+
+[Package|Standard Setup Package 4|Files In Project]
+F:\Documents and Settings\Manish\Desktop\Extras\vb\Source Manager\Source Manager.exe=Yes
+F:\WINDOWS\system32\msvbvm60.dll=Yes
+F:\WINDOWS\system32\oleaut32.dll=Yes
+F:\WINDOWS\system32\olepro32.dll=Yes
+F:\WINDOWS\system32\asycfilt.dll=Yes
+F:\WINDOWS\system32\stdole2.tlb=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+F:\WINDOWS\system32\scrrun.dll=Yes
+F:\WINDOWS\system32\msvcrt.dll=Yes
+F:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+F:\WINDOWS\system32\COMDLG32.OCX=Yes
+F:\WINDOWS\system32\RICHTX32.OCX=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+F:\WINDOWS\system32\VB6STKIT.DLL=Yes
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 4|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 4|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 4|Install Locations]
+F:\Documents and Settings\Manish\Desktop\Extras\vb\Source Manager\Source Manager.exe=$(AppPath)
+F:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+F:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+F:\WINDOWS\system32\msvcrt.dll=$(WinSysPathSysFile)
+F:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+F:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+F:\WINDOWS\system32\RICHTX32.OCX=$(WinSysPath)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+F:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+F:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 4|Configure Shared Files]
+Applicable=Yes
+F:\Documents and Settings\Manish\Desktop\Extras\vb\Source Manager\Source Manager.exe=No
+
+[Package|Standard Setup Package 4|Distribution]
+Type=single
+Size=
+Title=Source Manager
+
+[Package|Standard Setup Package 4|IconGroups]
+Group0=Source Manager
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 4|Source Manager]
+Icon1="Source Manager.exe"
+Title1=Source Manager
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 4|Package]
+PackageFolder=F:\Documents and Settings\Manish\Desktop\Extras\vb\Source Manager\Package
+ProjectFolder=F:\Documents and Settings\Manish\Desktop\Extras\vb\Source Manager
+ServerSideCab=
+File1=F:\Documents and Settings\Manish\Desktop\Extras\vb\Source Manager\Package\setup.exe
+File2=F:\Documents and Settings\Manish\Desktop\Extras\vb\Source Manager\Package\Setup.Lst
+File3=F:\Documents and Settings\Manish\Desktop\Extras\vb\Source Manager\Package\Source Manager.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
